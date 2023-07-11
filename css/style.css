@@ -1,0 +1,130 @@
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear
+{
+    display: none;
+}
+
+
+:root{
+    --error-color: rgba(255, 0, 0, 0.45);
+    --success-color: rgba(94, 255, 0, 0.47);
+    --warning-color: rgba(255, 255, 0, 0.57);
+}
+
+*{
+    margin: px;
+    padding: px;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.fondoApi{
+    background-image: url(../Imgs/fondoImg.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:600px){
+    .container{
+        width: 100%;
+    }
+}
+
+.container{
+    margin-top: 40px;
+    background-color: #ffff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0px, 2px, 5px rgba(0,0,0,0.3);
+    width: 400px;
+}
+
+#loginForm{
+    padding: 10px 20px;
+}
+
+form > h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: fantasy-Papyrus;
+}
+
+.campo{
+    margin-bottom: 5px;
+}
+
+.campo label{
+    display: block;
+    color: #777;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input{
+    margin-top: 10px;
+    border: 2px solid #f0f0f0;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+.campo input:focus{
+    outline: none;
+}
+
+.successInput{
+    border-color: var(--success-color);
+}
+
+.errorInput{   
+    border-color: var(--error-color);
+}
+
+.warningInput{
+    border-color: var(--warning-color);
+}
+
+.btn{
+    margin-top: 15px;
+    width: 100%;
+    padding: 3%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-1{
+    border: 2px solid #7f6edf;
+    color: #7f6edf;
+}
+
+.btn-2{
+    border: 2px solid #ff1200;
+    color: #ff1200;
+}
+
+.btn-1:hover{
+    box-shadow: rgb(127, 110, 223) 480px 0px 0px 1px inset;
+    color: #FFF;
+}
+
+.btn-2:hover{
+    box-shadow: rgba(255, 0, 0, 0.8) -480px 0px 0px 1px inset;
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
