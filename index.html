@@ -1,0 +1,156 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preload" as="image" href="images/avion.png">
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
+
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/about.css">
+    
+    <title> ArgVision </title>
+</head>
+<body>
+    <a class="skip" aria-label="Principal" href="#main">Principal</a>
+
+
+    <div id="navigation">
+        <div aria-hidden="true" class="background-color-div">
+            
+        </div>
+        <div class="container">
+           
+            <a class="logo" aria-label="click to go to home page" href="index.html">
+        
+                <img class="light" aria-hidden="true" src="images/LOGO.jpg" decoding="async" alt="logo" width="221" height="66">
+            </a>
+
+            <!--Main Nav-->
+            <nav id="navbar-menu">
+                <ul>
+                    <li><a class="active" href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Proyectos</a></li>
+                    <li><a href="nosotros - Copy.html">Equipo</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger-menu">
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <main id="main">
+
+     
+        <section id="sec">
+            <h1 id="home-h">Ingenieria Medica</h1>
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/banner.jpg">
+                <source media="(min-width: 601px)" srcset="images/banner.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="images/banner.jpg" alt="" width="400" height="662">
+            </picture>
+        </section>
+
+
+
+        <section id="sidebyside" class="sidebyside">s
+            <div class="container">
+                <div class="content">
+                    <h2 class="title">ArgVision</h2>
+                     <p>
+                        Proponer soluciones destacadas por su enfoque vanguardista, utilización de tecnologías innovadoras y su compromiso con las ONGs y que contribuyan tanto a la comunidad como al mundo.
+                    </p>
+                     <p>
+                         <strong>En nuestra empresa, nos esforzamos por ser líderes en el desarrollo de soluciones tecnológicas innovadoras en el ámbito de la medicina</strong>
+                      </p>
+                      Nuestra mision es Dar valor a las instituciones y a las personas a través del poder que ofrece la tecnología, facilitando la independencia individual y potenciando la productividad en nuestros usuarios.
+
+                     </p>
+                     <a class="button-solid" href="contact.html">Hacé click para contactarnos</a>
+                </div>
+                <picture class="image-box">
+                     <source media="(max-width: 600px)" srcset="images/colseo.png">
+                     <source media="(min-width: 601px)" srcset="images/colseo.png">
+                     <img  loading="lazy" decoding="async" src="images/index1.png" alt="" width="400" height="662">
+
+                 </picture>
+            </div>
+       </section>
+
+
+
+        <!-- <section id="cta">
+            <div class="container">
+                <h2 class="title">Comunicate con nosotros</h2>
+                <p>
+                    
+                </p>
+                <a href="/contact.html" class="button-solid">Hacé click acá</a>
+            </div>
+                <picture>
+                    <img src="images/index1.png"  width="1920" height="1280">
+                </picture>
+
+             
+        </section> -->
+
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="left-section">
+                <a class="logo" href="index.html"><img src="images/LOGO.jpg" alt="logo" width="264" height="78"></a>
+            </div>
+            <div class="right-section">
+                <div class="lists">
+                    <ul>
+                        <li><h2>Info</h2></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Nosotros</a></li>
+                        <li><a href="nosotros - Copy.html">Equipo</a></li>
+                       
+                    </ul>
+                    <ul>
+                        <li><h2>EN CONTACTO CON</h2></li>
+                        <li><a title="ONG" href="https://www.aedin.org/
+                            " target="_blank">Aedin</a></li>
+                        <li><a title="ONG" href="http://labs.ing.unlp.edu.ar/electrotecnia/unitec/" target="_blank">Unitec</a>
+                        <li><a href="https://proyectoyaguarete.org.ar/">Proyecto Yaguarete</a></li>
+                    </ul>
+                    <ul>
+                        <li><h2>Contacto</h2></li>
+                        <li><a title="Twitter" href="https://www.linkedin.com/in/tom%C3%A1s-k%C3%BCrten-p%C3%A9rez-588b7276/" target="_blank">General</a></li>
+                        <li><a title="instagram" href="jeronimo.sobral.delia@gmail.com" target="_blank">Desarrolo de Apps</a>
+                        <li><a href="https://www.linkedin.com/in/emilia-beyreuther-459110256/">Medicina</a></li>
+                </div>
+            </div>
+        </div>
+
+ 
+        <div class="credit">
+            <span>By</span>
+            <a href="" target="_blank" rel="noopener">ArgVision</a>
+            <span class="copyright"> Copyright 2023</span></div>
+    </footer>
+
+    <script defer src="/nav.js"></script>
+
+    <script defer>
+        document.addEventListener('scroll', (e) => { 
+            const scroll = document.documentElement.scrollTop;
+            if(scroll >= 100){
+        document.querySelector('body').classList.add('scroll')
+            } else {
+            document.querySelector('body').classList.remove('scroll')
+            }
+        });
+    </script>
+
+</body>
+</html>
