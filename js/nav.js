@@ -1,6 +1,6 @@
 document.write(`
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
 <div class="container-fluid">
   
     <a class="navbar-brand" href="index.html"><img src="images/LOGO.png" alt="logo" style="width: 15%;"></a>
