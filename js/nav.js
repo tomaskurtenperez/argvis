@@ -1,6 +1,7 @@
 document.write(`
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+
 <div class="container-fluid">
   
     <a class="navbar-brand" href="index.html"><img src="images/LOGO.png" alt="logo" style="width: 15%;"></a>
