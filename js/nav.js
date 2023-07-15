@@ -10,7 +10,7 @@ document.write(`
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-            
+            <a class="nav-link" href="acerca.html">Acerca de ArgVision</a>
             <a class="nav-link" href="nosotros.html">Nosotros</a>
             <a class="nav-link" href="about.html">Proyectos</a>
             <a class="nav-link" href="index.html">Exposiciones</a>
