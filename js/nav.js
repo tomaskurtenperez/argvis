@@ -13,7 +13,7 @@ document.write(`
             <a class="nav-link" href="acerca.html">Acerca de ArgVision</a>
             <a class="nav-link" href="nosotros.html">Nosotros</a>
             <a class="nav-link" href="about.html">Proyectos</a>
-            <a class="nav-link" href="index.html">Exposiciones</a>
+            <a class="nav-link" href="expo.html">Exposiciones</a>
         </div>
     </div>
 </div>
